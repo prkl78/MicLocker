@@ -26,9 +26,11 @@ MicLocker/
 │   ├── Shared.xcconfig                 # Shared build settings
 │   ├── Tests.xcconfig                  # Test build settings
 │   └── MicLocker.entitlements          # App sandbox settings
-├── AppIcon.appiconset/                 # Root level app icons
+├── assets/                             # Project assets
+│   └── mic-menu.png                    # Menu screenshot
 ├── MicLocker/                          # App target (minimal)
 │   ├── Assets.xcassets/                # App-level assets (icons, colors)
+│   │   └── AppIcon.appiconset/         # App icons for all sizes
 │   ├── Info.plist                      # App configuration
 │   └── MicLockerApp.swift              # App entry point
 ├── MicLockerPackage/                   # 🚀 Primary development area
