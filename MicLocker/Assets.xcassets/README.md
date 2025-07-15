@@ -1,0 +1,1 @@
+// This folder contains asset catalogs for the MicLocker app, including app icons. 

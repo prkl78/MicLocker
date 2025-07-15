@@ -1,0 +1,42 @@
+// Config/Shared.xcconfig - Shared build settings
+
+// Disable auto Info.plist generation
+GENERATE_INFOPLIST_FILE = NO
+
+// Specify the Info.plist file path
+INFOPLIST_FILE = MicLocker/Info.plist
+
+// ==========================================
+// Project Identity
+// ==========================================
+PRODUCT_NAME = MicLocker
+PRODUCT_DISPLAY_NAME = MicLocker
+PRODUCT_BUNDLE_IDENTIFIER = com.prkl78.miclocker
+MARKETING_VERSION = 1.0
+CURRENT_PROJECT_VERSION = 1
+
+// ==========================================
+// Platform Configuration
+// ==========================================
+MACOSX_DEPLOYMENT_TARGET = 15.4
+
+// ==========================================
+// App Icon Configuration
+// ==========================================
+// Specify which icon set to use from Assets.xcassets
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+
+// ==========================================
+// Info PLIST
+// ==========================================
+// Disable auto Info.plist generation
+GENERATE_INFOPLIST_FILE = NO
+
+// Specify the Info.plist file path
+INFOPLIST_FILE = MicLocker/Info.plist
+
+// ==========================================
+// Entitlements
+// ==========================================
+// AI agents can modify Config/MicLocker.entitlements to add capabilities
+CODE_SIGN_ENTITLEMENTS = Config/MicLocker.entitlements
